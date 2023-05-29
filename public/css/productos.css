@@ -1,0 +1,39 @@
+body{
+    background-color: #184262;
+}
+
+a{
+    text-decoration: none;  
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.conteinerArriba{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: solid 4px black;
+    background-image: url(https://www.mundo-geo.es/uploads/s1/94/94/70/7/la-temperatura-en-el-espacio-es-realmente-fria.jpeg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.producto{
+    margin: 0px 20px;
+}
+h1{
+    color: aquamarine;
+    font-size: 40px;
+}
+p{
+    color: violet;
+    font-size: 25px;
+}

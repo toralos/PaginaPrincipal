@@ -1,0 +1,23 @@
+<header>
+    <link rel="stylesheet" href="/css/headerCS.css">
+    <div class="headerConteiner">
+        <div class="caja">
+            <h3> P r o f e c i o n a l </h3>
+            <input type="text" placeholder="Search...">
+
+            <% if (typeof user !== 'undefined') { %>
+                <p>Bienvenido, <%= useertable.user %></p>
+             <% } %>
+            <li>
+                <a class="aHeader" href="/">Pagina Principal</a>
+    
+                <a class="aHeader" href="../productos"> Productos </a>
+    
+                <a class="aHeader" href="../register" font-family='Signika Negative'> Register </a>
+
+                <a class="aHeader" href="../login" font-family='Signika Negative'> Login </a>
+            </li>
+
+        </div>
+    </div>  
+</header>
